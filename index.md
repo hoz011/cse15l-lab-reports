@@ -18,3 +18,7 @@
 ## Testing Screenshots
 
 ![Image](helloworld.PNG)
+
+Using html: [Link](lab-report-1-week-2.html)
+
+Using the link: [Link](https://hoz011.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
