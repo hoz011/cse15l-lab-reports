@@ -2,7 +2,7 @@
 
 ![Image](https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242)
 
-*Here's the picture in another form:* [Link](https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242)
+*Here's the picture:* [Link](https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242)
 
 ## Testing Text:
 
@@ -13,4 +13,4 @@
 
 > Here is a Blockquote
 
----
+`Inline code` with backticks
