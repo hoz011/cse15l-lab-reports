@@ -79,7 +79,13 @@ Since it's time-consuming and inefficient to type in our password every time we 
 ---
 There are multiple other commands you can run in one line to make things more efficient:
 
-1. hi
+1. Using quotations around your command:
+
+    `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+
 2. Using semicolons to run multiple commands on the same line:
 
-    ![Image]()
+    ![Image](multiple_commands.PNG)
+
+
+
