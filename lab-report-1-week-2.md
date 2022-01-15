@@ -48,7 +48,9 @@
 ## STEP FOUR: MOVING FILES WITH SCP
 ---
 
-1. The command `scp`, when run from the client server, can copy file(s) from a client server to a remote server. To use it, run the following command in the same directory as the file you want to copy:
+The command `scp`, when run from the client server, can copy file(s) from a client server to a remote server. 
+
+1. To use `scp`, run the following command in the same directory as the file you want to copy:
 
     `scp [file name].java cs15lwi22__@ieng6.ucsd.edu:~/`
 
@@ -56,8 +58,28 @@
 
     ![Image](scp_ls.PNG)
 
+3. You can also run the file on the remote server using `javac` and `java`.
+
 ## STEP FIVE: SETTING AN SSH KEY
 ---
 
+Since it's time-consuming and inefficient to type in our password every time we log in, we can use the `ssh-keygen` command to create a pair of keys in place of your password.
+
+1. Run the following commands on your computer (the client server):
+
+    ![Image](keygen.PNG)
+
+2. Since you're on Windows, follow the `ssh-add` command in this link: [Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+3. This generates a private and a public key. Log into your ssh and copy the public key to the server using `scp`.
+
+4. You should then be able to log in without a password.
+
 ## STEP SIX: OPTIMIZING REMOTE RUNNING
 ---
+There are multiple other commands you can run in one line to make things more efficient:
+
+1. hi
+2. Using semicolons to run multiple commands on the same line:
+
+    ![Image]()
