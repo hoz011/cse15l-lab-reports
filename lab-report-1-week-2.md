@@ -81,7 +81,7 @@
 ---
 **There are multiple other commands you can run in one line to make things more efficient:**
 
-1. Using quotations around your command:
+1. Using quotations around your command to execute it from the client:
 
     `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
