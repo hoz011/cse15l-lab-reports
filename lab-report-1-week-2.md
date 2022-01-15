@@ -33,7 +33,9 @@
 ## STEP THREE: TRYING COMMANDS
 ---
 
-1. The following are all commands you cant ry running in the terminal once you have logged in:
+**Running these commands will execute them on the remote server.**
+
+1. The following are all commands you can try running in the terminal once you have logged in:
 
     `cd ~`, `cd`, `ls -lat`, `ls -a`, plus others. All do different things.
 
@@ -41,14 +43,14 @@
 
     ![Image](ls_lat_command.PNG)
 
-    *`ls -lat`  displays a list of files in the directory, as wwell as the dates and times at which they were modified.*
+    *`ls -lat`  displays a list of files in the directory, as well as the dates and times at which they were modified.*
 
 2. You can also log out of the remote server from you terminal by type Ctrl+D or running the command `exit`.
 
 ## STEP FOUR: MOVING FILES WITH SCP
 ---
 
-The command `scp`, when run from the client server, can copy file(s) from a client server to a remote server. 
+**The command `scp`, when run from the client server, can copy file(s) from a client server to a remote server.** 
 
 1. To use `scp`, run the following command in the same directory as the file you want to copy:
 
@@ -63,7 +65,7 @@ The command `scp`, when run from the client server, can copy file(s) from a clie
 ## STEP FIVE: SETTING AN SSH KEY
 ---
 
-Since it's time-consuming and inefficient to type in our password every time we log in, we can use the `ssh-keygen` command to create a pair of keys in place of your password.
+**Since it's time-consuming and inefficient to type in our password every time we log in, we can use the `ssh-keygen` command to create a pair of keys in place of your password.**
 
 1. Run the following commands on your computer (the client server):
 
@@ -77,7 +79,7 @@ Since it's time-consuming and inefficient to type in our password every time we 
 
 ## STEP SIX: OPTIMIZING REMOTE RUNNING
 ---
-There are multiple other commands you can run in one line to make things more efficient:
+**There are multiple other commands you can run in one line to make things more efficient:**
 
 1. Using quotations around your command:
 
