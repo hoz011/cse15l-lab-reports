@@ -43,7 +43,7 @@
 
     ![Image](ls_lat_command.PNG)
 
-    *`ls -lat`  displays a list of files in the directory, as well as the dates and times at which they were modified.*
+    *`ls -lat`  displays a list of files in the directory in a long list format. the `-a` and `-t` added onto the `-l` show the hidden files and times modified for each file in the directory.*
 
 2. You can also log out of the remote server from you terminal by type Ctrl+D or running the command `exit`.
 
@@ -75,7 +75,9 @@
 
 3. This generates a private and a public key. Log into your ssh and copy the public key to the server using `scp`.
 
-4. You should then be able to log in without a password.
+4. You should then be able to log in without a password, like shown:
+
+![Image](ssh_login.PNG)
 
 ## STEP SIX: OPTIMIZING REMOTE RUNNING
 ---
@@ -83,7 +85,20 @@
 
 1. Using quotations around your command to execute it from the client:
 
-    `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+    `$ ssh cs15lwi22__@ieng6.ucsd.edu "ls"`
+
+    would return something like
+
+    ![Image](ls_remote.PNG)
+
+    which was accomplished by typing only 6 keystrokes:
+
+    1. the 'up' key to get the `ssh cs15lwi22__@ieng6.ucsd.edu` 
+    2. four keys to type `"ls"`
+    3. the 'Enter' key
+
+    Without remote access, we would have had to type in our password, adding many more keystrokes. Remotely running commands saves much more time.
+
 
 2. Using semicolons to run multiple commands on the same line:
 
