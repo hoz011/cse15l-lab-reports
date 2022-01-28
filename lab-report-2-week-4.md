@@ -4,7 +4,7 @@
 ## CODE CHANGE #1:
 ---
 
-![Image](code-change-1.png)
+![Image](code-change-1.PNG)
 
 The failure inducing input that prompted the change: [Test File](break-test.md)
 
