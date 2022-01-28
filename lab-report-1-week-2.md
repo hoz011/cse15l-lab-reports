@@ -91,18 +91,20 @@
 
     ![Image](ls_remote.PNG)
 
-    which was accomplished by typing only 6 keystrokes:
-
-    1. the 'up' key to get the `ssh cs15lwi22__@ieng6.ucsd.edu` 
-    2. four keys to type `"ls"`
-    3. the 'Enter' key
-
-    Without remote access, we would have had to type in our password, adding many more keystrokes. Remotely running commands saves much more time.
-
 
 2. Using semicolons to run multiple commands on the same line:
 
     ![Image](multiple_commands.PNG)
+
+3. To run remotely requires only two keystrokes:
+    1. the 'up' key to get the previous `ssh` command: 
+    
+        `ssh cs15lwi22__@ieng6.ucsd.edu` 
+
+    2. the 'Enter' key to run
+
+    Without remote access, we would have had to type in our password, adding many more keystrokes. Remotely running commands saves much more time.
+    
 
 
 
