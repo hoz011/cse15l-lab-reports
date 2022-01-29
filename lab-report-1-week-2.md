@@ -43,7 +43,7 @@
 
     ![Image](ls_lat_command.PNG)
 
-    *`ls -lat`  displays a list of files in the directory in a long list format. the `-a` and `-t` added onto the `-l` show the hidden files and times modified for each file in the directory.*
+    `ls -lat`  *displays a list of files in the directory in a long list format. the* `-a` *and* `-t` *added onto the* `-l` *show the hidden files and times modified for each file in the directory.*
 
 2. You can also log out of the remote server from you terminal by type Ctrl+D or running the command `exit`.
 
