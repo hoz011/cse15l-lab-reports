@@ -24,7 +24,9 @@ Symptom of the failure-inducing input:
 
 The failure-inducing input that prompted the change: [Test File](test-file2.md)
 
-Symptom of the failure-inducing input: 
+Symptom of the failure-inducing input after running the following command:
+
+`java MarkdownParse test-file6.md`
 
 ![Image](output_error_2.PNG)
 
@@ -42,7 +44,7 @@ The failure-inducing input that prompted the change: [Test File](test-file6.md)
 
 Symptom of the failure-inducing input: 
 
-![Image](output_error_3.PNG)
+![Image](output_error_4.PNG)
 
 ---
 *The failure-inducing input in this case was an image (an exclamation point before the first open square bracket). Because of the bug in the code, in which it did not check for the "!" before the brackets, the code printed the image link when we did not want it to (the wrong output was our symptom).*
