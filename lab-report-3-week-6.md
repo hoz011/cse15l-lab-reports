@@ -25,3 +25,11 @@ I first `ssh` into my account. then, I run the same `javac` and `java` commands 
 
 ## Running Commands from One Line
 
+
+![Image](scp_4.PNG)
+
+![Image](scp_5.PNG)
+
+![Image](scp_6.PNG)
+
+To run commands on one line, use quotation marks after the `ssh` and use a semicolon in between each command. My `javac` commands were not working, so I replaced the `javac` and `java` with `/software/CSE/oracle-java-se-14/jdk-14.0.2/bin/javac` instead. That way, we can login and run our tests in one line.
