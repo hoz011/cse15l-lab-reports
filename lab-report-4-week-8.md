@@ -62,7 +62,7 @@ This code doesn't work because there are multiple brackets inside of each other.
 
 **TEST RESULT FOR MY IMPLEMENTATION:**
 
-![Image](snippet3_error2.PNG)
+The test passes for my implementation.
 
 **TEST RESULT FOR THE IMPLEMENTATION I REVIEWED:**
 
@@ -70,4 +70,4 @@ This code doesn't work because there are multiple brackets inside of each other.
 
 **FIXING THE CODE:**
 
-For this one, 
+For this one, it is necessary to make sure that 
