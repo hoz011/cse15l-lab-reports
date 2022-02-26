@@ -12,6 +12,16 @@
 
 ![Image](snippet1_test.PNG)
 
+**TEST RESULT FOR MY IMPLEMENTATION:**
+
+![Image](snippet1_error2.PNG)
+
+**TEST RESULT FOR THE IMPLEMENTATION I REVIEWED:**
+
+![Image](snippet1_error1.PNG)
+
+**FIXING THE CODE:**
+
 ## SNIPPET #2:
 ---
 
@@ -19,9 +29,21 @@
 
 ![Image](snippet2_preview.PNG)
 
+where the blue words are the links.
+
 **THE TEST:**
 
 ![Image](snippet2_test.PNG)
+
+**TEST RESULT FOR MY IMPLEMENTATION:**
+
+![Image](snippet2_error2.PNG)
+
+**TEST RESULT FOR THE IMPLEMENTATION I REVIEWED:**
+
+![Image](snippet2_error1.PNG)
+
+**FIXING THE CODE:**
 
 ## SNIPPET #3:
 ---
@@ -33,3 +55,13 @@
 **THE TEST:**
 
 ![Image](snippet3_test.PNG)
+
+**TEST RESULT FOR MY IMPLEMENTATION:**
+
+![Image](snippet3_error2.PNG)
+
+**TEST RESULT FOR THE IMPLEMENTATION I REVIEWED:**
+
+![Image](snippet3_error1.PNG)
+
+**FIXING THE CODE:**
