@@ -8,9 +8,13 @@
 
 ![Image](snippet1_preview.PNG)
 
+where the blue letters represent the links.
+
 **THE TEST:**
 
 ![Image](snippet1_test.PNG)
+
+the JUnit test for snippet 1.
 
 **TEST RESULT FOR MY IMPLEMENTATION:**
 
@@ -70,4 +74,4 @@ The test passes for my implementation.
 
 **FIXING THE CODE:**
 
-For this one, it is necessary to make sure that 
+For this one, what is messing it up is the amount of line breaks inside the brackets and parenthesis. We can use the `replace()` methods, using `/n` to represent line breaks, and replace the line breaks inside the parenthesis/brackets with spaces. Then, the normal code could work as per usual.
