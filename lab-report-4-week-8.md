@@ -69,3 +69,5 @@ This code doesn't work because there are multiple brackets inside of each other.
 ![Image](snippet3_error1.PNG)
 
 **FIXING THE CODE:**
+
+For this one, 
