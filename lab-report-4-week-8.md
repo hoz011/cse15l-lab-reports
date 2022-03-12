@@ -1,6 +1,10 @@
 # Lab Report 4- Debugging
 *FEBRUARY 25, 2022*
 
+[My implementation](https://github.com/hoz011/markdown-parse)
+
+[Reviewed implementation](https://github.com/tanpatil/markdown-parse)
+
 ## SNIPPET #1:
 ---
 
